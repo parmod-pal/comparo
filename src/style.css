@@ -1,0 +1,234 @@
+/** slider **/
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.slide {
+  min-width: 50%;
+  height: 60vh;
+  font-size: 50px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.left-arrow,
+.right-arrow {
+  position: absolute;
+  z-index: 1;
+  font-size: 20px;
+  top: 46%;
+  color: white;
+  background: black;
+  border-radius: 9999px;
+  padding: 4px 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  left: 5%;
+}
+
+.right-arrow {
+  right: 5%;
+}
+/*end slider*/
+/** layout **/
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 5; /* Remove padding */
+  margin: 5; /* Remove margins */
+}
+/*** end layout ***/
+
+/*** faq ***/
+.container {
+  background-color: rgb(10, 27, 184);
+  max-width: 600px;
+  padding: 10px 20px 20px;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container h2 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0 20px 0;
+  color: white;
+}
+
+button {
+  background: rgb(211, 216, 253);
+  color: rgb(10, 27, 184);
+  border: 2px solid rgb(10, 27, 184);
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+section div,
+section p {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 0px;
+}
+
+section p {
+  padding-bottom: 20px;
+}
+
+section > div.closed {
+  margin-bottom: 20px;
+}
+/*** end faq ***/
+
+/*** quote generator ***/
+
+
+main {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+section .quote {
+  margin-top: 100px;
+  display: grid;
+  place-items: center;
+  border: 2px solid gray;
+  padding: 20px 10px;
+  background-color: goldenrod;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+/*** end ***/
+/**shopping list **/
+
+
+h1,
+.shopping-list {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 500px;
+}
+
+.shopping-list {
+  margin-top: 50px;
+  background-color: white;
+  border: 2px dashed black;
+}
+
+.delete {
+  background: transparent;
+  border: none;
+  color: red;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+ul {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  padding: 0;
+  flex-direction: column;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+
+
+/*end */
+
+/*** Github ***/
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  margin: 0;
+  padding: 10px;
+}
+
+.main {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-form {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.search-form input,
+.search-form button {
+  width: 280px;
+}
+
+.search-form input,
+.search-form button {
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.search-form input {
+  border: 1px solid grey;
+  outline: none;
+}
+
+.search-form button {
+  margin-left: 10px;
+  background-color: chartreuse;
+  border: 1px solid chartreuse;
+}
+
+.user {
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/**end **/
+
