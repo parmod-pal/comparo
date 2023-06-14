@@ -22,6 +22,9 @@ const Layout = () => {
           <li>
             <Link to="/github-user-search">Git Hub User Search</Link>
           </li>
+          <li>
+            <Link to="/video-player">Video Player</Link>
+          </li>
         </ul>
       </nav>
 

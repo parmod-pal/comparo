@@ -7,6 +7,7 @@ import Faq from './pages/Faq';
 import Quote from './pages/Quote';
 import ShoppingList from './pages/ShoppingList';
 import GithubUserSearch from './pages/GithubUserSearch';
+import VideoPlayer from './pages/VideoPlayer';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="quote" element={<Quote />} />
           <Route path="shopping-list" element={<ShoppingList />} />
           <Route path="github-user-search" element={<GithubUserSearch />} />
+          <Route path="video-player" element={<VideoPlayer />} />
         </Route>
       </Routes>
     </BrowserRouter>
