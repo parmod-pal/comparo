@@ -1,9 +1,9 @@
-export default function Menu({onSelectVideo,VideoValues}){
+export default function Menu({onSelectVideo,VideoValues,videoSrc}){
   return (
   <>
-  <form onSubmit={(event) => onSelectVideo(event.target.value)}>
+  <form onClick={(event) => onSelectVideo(event.target.value)}>
     {VideoValues.map((value,i)=>(
-      <div className="video-inputs">
+      <div className="video-inputs">        
         <input key= {i} type="radio" name="src" value={value} id={i}/>
         {value}
       </div>

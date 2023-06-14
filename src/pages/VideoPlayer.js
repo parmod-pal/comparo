@@ -16,7 +16,7 @@ const videos = {
 const VideoNames = Object.keys(videos);
 
 export default function VideoPlayer(){
-  const[videoSrc,SetVideoSrc] = useState(videos.deer);
+  const[videoSrc,SetVideoSrc] = useState(videos.snail);
 
   function onSelectVideo(video){
     const videoSrc = videos[video];
@@ -27,7 +27,7 @@ export default function VideoPlayer(){
     <>
     <div>
       <h1>Project 6 : Video Player</h1>
-      <Menu onSelectVideo={onSelectVideo} VideoValues={VideoNames} />
+      <Menu onSelectVideo={onSelectVideo} VideoValues={VideoNames} videoSrc={videoSrc}/>
       <Video videoSrc={videoSrc} />
     </div>
     </>
